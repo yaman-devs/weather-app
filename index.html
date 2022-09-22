@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+  <title>Wheather app</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <h1 class="h1-title">Weather app</h1>
+    <label for="city">City Name:<input type="text" name="city" id="city" placeholder="Enter city name"><button
+        type="submit" id="cityButton">Search
+      </button></label>
+    <div class="temp-container" id="temp-container">
+      <p class="Temp">Tempreture:
+        <span class="weather-temp" id="weather-temp"></span>
+      </p>
+      <p class="Weather">Weather: <span id="weather-span" class="weather-span"></span>
+      <div><img id="weather-gif" src="" alt="gif" width="64" height="64"></div>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
